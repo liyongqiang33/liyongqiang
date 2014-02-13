@@ -21,6 +21,7 @@
 		A74219B518AD09E300CBA215 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A742199718AD09E300CBA215 /* UIKit.framework */; };
 		A74219BD18AD09E300CBA215 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A74219BB18AD09E300CBA215 /* InfoPlist.strings */; };
 		A74219BF18AD09E300CBA215 /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74219BE18AD09E300CBA215 /* gittestTests.m */; };
+		A74219CA18AD0BB500CBA215 /* T.m in Sources */ = {isa = PBXBuildFile; fileRef = A74219C918AD0BB500CBA215 /* T.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A74219BA18AD09E300CBA215 /* gittestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gittestTests-Info.plist"; sourceTree = "<group>"; };
 		A74219BC18AD09E300CBA215 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A74219BE18AD09E300CBA215 /* gittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestTests.m; sourceTree = "<group>"; };
+		A74219C818AD0BB500CBA215 /* T.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T.h; sourceTree = "<group>"; };
+		A74219C918AD0BB500CBA215 /* T.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				A74219A918AD09E300CBA215 /* ViewController.m */,
 				A74219AB18AD09E300CBA215 /* Images.xcassets */,
 				A742199A18AD09E300CBA215 /* Supporting Files */,
+				A74219C818AD0BB500CBA215 /* T.h */,
+				A74219C918AD0BB500CBA215 /* T.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				A74219AA18AD09E300CBA215 /* ViewController.m in Sources */,
 				A74219A418AD09E300CBA215 /* AppDelegate.m in Sources */,
+				A74219CA18AD0BB500CBA215 /* T.m in Sources */,
 				A74219A018AD09E300CBA215 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
